@@ -39146,4 +39146,6 @@ with pkgs;
   resgate = callPackage ../servers/resgate { };
 
   oversteer = callPackage ../applications/misc/oversteer { };
+
+  gnss-share = callPackage ../servers/gnss-share { };
 }
